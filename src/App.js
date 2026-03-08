@@ -150,7 +150,7 @@ export default function App() {
   const [end, setEnd] = useState(INIT_END);
   const [algo, setAlgo] = useState("A*");
   const [running, setRunning] = useState(false);
-  const [done, setDone] = useState(false); // eslint-disable-line
+  const [done, setDone] = useState(false); // eslint-disable-line no-unused-vars
   const [diagonal, setDiagonal] = useState(false);
   const [speed, setSpeed] = useState(8);
   const [stats, setStats] = useState(null);
